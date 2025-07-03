@@ -1,0 +1,1 @@
+# webstorm-typescript-resolution-reproduction
