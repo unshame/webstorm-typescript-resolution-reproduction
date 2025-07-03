@@ -1,0 +1,139 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@internal/package':
+        specifier: workspace:*
+        version: link:package
+      typescript:
+        specifier: 5.7.3
+        version: 5.7.3
+      vue:
+        specifier: 3.0.1
+        version: 3.0.1
+
+  package:
+    dependencies:
+      typescript:
+        specifier: 5.7.3
+        version: 5.7.3
+
+packages:
+
+  '@babel/helper-string-parser@7.27.1':
+    resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-validator-identifier@7.27.1':
+    resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/parser@7.28.0':
+    resolution: {integrity: sha512-jVZGvOxOuNSsuQuLRTh13nU0AogFlw32w/MT+LV6D3sP5WdbW61E77RnkbaO2dUvmPAYrBDJXGn5gGS6tH4j8g==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/types@7.28.0':
+    resolution: {integrity: sha512-jYnje+JyZG5YThjHiF28oT4SIZLnYOcSBb6+SDaFIyzDVSkXQmQQYclJ2R+YxcdmK0AX6x1E5OQNtuh3jHDrUg==}
+    engines: {node: '>=6.9.0'}
+
+  '@vue/compiler-core@3.0.1':
+    resolution: {integrity: sha512-BbQQj9YVNaNWEPnP4PiFKgW8QSGB3dcPSKCtekx1586m4VA1z8hHNLQnzeygtV8BM4oU6yriiWmOIYghbJHwFw==}
+
+  '@vue/compiler-dom@3.0.1':
+    resolution: {integrity: sha512-8cjgswVU2YmV35H9ARZmSlDr1P9VZxUihRwefkrk6Vrsb7kui5C3d/WQ2/su34FSDpyMU1aacUOiL2CV/vdX6w==}
+
+  '@vue/reactivity@3.0.1':
+    resolution: {integrity: sha512-XWeqNTbvcAq8BmtR5M+XU6mfIhzi1NTcrQho7nI03I+Zf6QW1hHl/ri+iNfCNCasukQI/tzpkqJYPfyZxCRKyg==}
+
+  '@vue/runtime-core@3.0.1':
+    resolution: {integrity: sha512-HporlL3cbD0/79U0a7mDIMEn5XoxstVXrOx0TDTi2O2CUv6yjteUQdxhmMOa8m7pnqU4DL/ZuVntBWFaf4ccaw==}
+
+  '@vue/runtime-dom@3.0.1':
+    resolution: {integrity: sha512-ijb2qTRU8OzllzYQ6BSymuu9KHFDyjzn4m6jcLGlNeazdk1/YA01lFtGkl6oAErdiWPglloUJzIz0ilv0laPwA==}
+
+  '@vue/shared@3.0.1':
+    resolution: {integrity: sha512-/X6AUbTFCyD2BcJnBoacUct8qcv1A5uk1+N+3tbzDVuhGPRmoYrTSnNUuF53C/GIsTkChrEiXaJh2kyo/0tRvw==}
+
+  csstype@2.6.21:
+    resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
+
+  estree-walker@2.0.2:
+    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
+
+  source-map@0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  vue@3.0.1:
+    resolution: {integrity: sha512-WBTgaQMJIWQuhlzMV6C0qvVrxyQSpx3gKwflYC0sqGKEZSxMIOYRnrIlHUN4ivUVvP7mUMxcnFTt7P+akdOkQA==}
+
+snapshots:
+
+  '@babel/helper-string-parser@7.27.1': {}
+
+  '@babel/helper-validator-identifier@7.27.1': {}
+
+  '@babel/parser@7.28.0':
+    dependencies:
+      '@babel/types': 7.28.0
+
+  '@babel/types@7.28.0':
+    dependencies:
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.27.1
+
+  '@vue/compiler-core@3.0.1':
+    dependencies:
+      '@babel/parser': 7.28.0
+      '@babel/types': 7.28.0
+      '@vue/shared': 3.0.1
+      estree-walker: 2.0.2
+      source-map: 0.6.1
+
+  '@vue/compiler-dom@3.0.1':
+    dependencies:
+      '@vue/compiler-core': 3.0.1
+      '@vue/shared': 3.0.1
+
+  '@vue/reactivity@3.0.1':
+    dependencies:
+      '@vue/shared': 3.0.1
+
+  '@vue/runtime-core@3.0.1':
+    dependencies:
+      '@vue/reactivity': 3.0.1
+      '@vue/shared': 3.0.1
+
+  '@vue/runtime-dom@3.0.1':
+    dependencies:
+      '@vue/runtime-core': 3.0.1
+      '@vue/shared': 3.0.1
+      csstype: 2.6.21
+
+  '@vue/shared@3.0.1': {}
+
+  csstype@2.6.21: {}
+
+  estree-walker@2.0.2: {}
+
+  source-map@0.6.1: {}
+
+  typescript@5.7.3: {}
+
+  vue@3.0.1:
+    dependencies:
+      '@vue/compiler-dom': 3.0.1
+      '@vue/runtime-dom': 3.0.1
+      '@vue/shared': 3.0.1
